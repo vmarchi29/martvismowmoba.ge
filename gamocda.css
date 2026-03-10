@@ -516,14 +516,20 @@
 }
 @media (max-width: 768px) {
 
-  /* რეკლამები */
   .ads1 {
-    position: static;
-    width: 100%;
-    height: 120px;
-    margin-top: 10px;
-  }
-  .ads1 p { font-size: 30px; }
+  position: static;
+  width: 100%;
+  height: 120px;
+  margin-top: 10px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ads1 p { 
+  font-size: 20px;
+  text-align: center;
+}
 
   .ads4 {
     position: static;
@@ -575,13 +581,15 @@
   }
 
   .tavidandawyeba {
-    margin-left: 15%;
-    margin-top: 10px;
-  }
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 10px;
+}
 
-  .gamotoveba {
-    margin-left: 10px;
-  }
+.gamotoveba {
+  width: 45%;
+  margin-left: 4%;
+}
 
   /* კითხვები */
   .all-tickets {

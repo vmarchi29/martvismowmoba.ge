@@ -633,13 +633,19 @@
 }
 @media (max-width: 768px) {
   .ads1 {
-    position: static;
-    width: 100%;
-    height: 120px;
-    margin-top: 10px;
-    left: 0;
-  }
-  .ads1 p { font-size: 30px; }
+  position: static;
+  width: 100%;
+  height: 120px;
+  margin-top: 10px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ads1 p { 
+  font-size: 20px;
+  text-align: center;
+}
 
   .ads2, .ads3 {
     position: static;
