@@ -584,11 +584,13 @@
   width: 45%;
   margin-left: 2%;
   margin-top: 10px;
+  vertical-align: top;
 }
 
 .gamotoveba {
   width: 45%;
   margin-left: 4%;
+  margin-top: 10px;
 }
 
   /* კითხვები */
