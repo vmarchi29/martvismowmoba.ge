@@ -1,0 +1,175 @@
+.top{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg,rgb(58, 27, 159),green,rgb(101, 32, 32),rgb(82, 16, 27));
+  color: white;
+  background-position: left;
+  background-size: 200% 100%;
+  animation: banner 5s ease infinite
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle ul li{
+  font-size: 20px;
+  list-style-type:decimal;
+  width: 300px;
+  margin-top: 20px;
+}
+.middle h1{
+  text-align: center;
+}
+.moedani{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.moedani_ruka{
+  background: #EEF2FF;
+  accent-color: #8B5CF6;
+  width: 800px;
+  height: 620px;
+  color: #3730A3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.moedani_ruka img{
+    height: 70%;
+    width: 60%;
+}
+.moedani-ruka-flex{
+    display: flex;
+    gap:50px
+}
+.qalaqi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: underline;
+    align-items: center;
+}
+.ads2{
+    position: absolute;
+    top: 1200px;
+    left: 2%;
+    background:linear-gradient(90deg,#0f172a,#6D28D9,rgb(200, 197, 197));
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: banner 7s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+}
+.ads2 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads3{
+    position: absolute;
+    top: 1200px;
+    left: 79%;
+    background:linear-gradient(270deg,#F472B5,#06B6D4,#8B5CF6);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: banner 7s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+}
+.ads3 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads4{
+  margin-top: 20px;
+    background:linear-gradient(270deg,#8e2e2e,#3a8b3a,#2828a4);
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: banner 10s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+    margin-bottom: -370px;
+}
+.ads4 p{
+    font-size: 70px;
+    color: white;
+}
+
+
+@keyframes banner{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .middle ul li {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .moedani_ruka {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .moedani_ruka img {
+    width: 100%;
+    height: auto;
+  }
+
+  .moedani-ruka-flex {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .qalaqi h1{
+    text-align: center;
+  }
+
+  .ads2, .ads3 {
+    display: none;
+  }
+
+  .ads4 {
+    height: 150px;
+    margin-bottom: 0;
+  }
+
+  .ads4 p {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,798 @@
+.signs-list div{
+    padding: 10px;
+    height: 30px;
+    margin-top: 10px;
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.signs{
+    display: flex;
+    gap: 200px;
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+}
+.sign{
+    font-weight: 800;
+    color: rgb(101, 99, 99);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 50px;
+}
+.sign:hover{
+    background-color: green;
+    color: white;
+}
+.sign.active1 {
+    background-color: green;
+    color: white;
+}
+.biletebi-h1{
+    margin-top: 50px;
+    font-size: 50px;
+    background: linear-gradient(green,red);
+    color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-link{
+    text-decoration: none;
+}
+.moped-pink{
+    text-decoration: none;
+}
+.ads1{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    background-color: rgb(249, 90, 116);
+    width: 1030px;
+    height: 230px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads1 p{
+    font-size: 70px;
+    color: white;
+}
+.ads2{
+    position: absolute;
+    top: 2100px;
+    left: 0px;
+    background-color: #0f172a;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.ads2 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads3{
+    position: absolute;
+    top: 2670px;
+    left: 0px;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.ads3 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads4{
+    position: absolute;
+    bottom: -350px;
+    left: 60px;
+    background: #14532d;
+    width: 1400px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.ads4 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.biletebi-p{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.biletebi-airchiet-kategoria{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    
+}
+.biletebis-kategoria{
+    height: 150px;
+    width: 150px;
+    background-color: lightgray;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.biletebis-kategoria img{
+    height: 100px;
+    width: 100px;
+}
+.biletebis-kategoria p{
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.biletebis-kategoria-a{
+    height: 150px;
+    width: 120px;
+    background-color: green;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.biletebis-kategoria-a img{
+    height: 100px;
+    width: 100px;
+}
+.biletebis-kategoria-a p{
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.biletebis-kategoria-b{
+    height: 150px;
+    width: 120px;
+    background-color: lightgray;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.biletebis-kategoria-b img{
+    height: 100px;
+    width: 100px;
+}
+.biletebis-kategoria-b p{
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-weight: 1000;
+    font-size: 20px;
+}
+.biletebis-kategoria-moped{
+    height: 150px;
+    width: 120px;
+    background-color: lightgray;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.biletebis-kategoria-moped img{
+    height: 100px;
+    width: 100px;
+}
+.biletebis-kategoria-moped p{
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-weight: 1000;
+    font-size: 20px;
+}
+.moped-link{
+    text-decoration: none;
+}
+.b-link{
+    text-decoration: none;
+}
+.a-link{
+    text-decoration: none;
+}
+
+
+
+
+.signs-products{
+    height: auto;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 50px;
+}
+.question-container,
+.question-container-uwesivroba,
+.question-container-mafrtxilebeli,
+.question-container-prioriteti,
+.question-container-amkrdzalavi,
+.question-container-mimtitebeli,
+.question-container-sainformacio,
+.question-container-servisis,
+.question-container-damatebiti-informaciis,
+.question-container-shuqnishnis,
+.question-container-maregulirebeli,
+.question-container-specialuri-signali,
+.question-container-saavario,
+.question-container-sanati-xelsawyoebi,
+.question-container-modzraoba-manevrireba,
+.question-container-gaswreba,
+.question-container-modzraobis-sichqare,
+.question-container-samuxruche,
+.question-container-gachereba,
+.question-container-gzajvaredini,
+.question-container-rkinigza,
+.question-container-avtomagistrali,
+.question-container-sacxovrebeli,
+.question-container-buqsireba,
+.question-container-saswavlo,
+.question-container-gadazidvebi,
+.question-container-velosipedi,
+.question-container-sagzao-monishvna,
+.question-container-sagzao-samedicino,
+.question-container-usafrtxoeba,
+.question-container-eko{
+    position: relative;
+    height: auto;
+    background:linear-gradient(135deg,#0f1f5c,#162f81,#1d3db3);
+    width: 760px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+.question-container:hover .id-definition,
+.question-container-uwesivroba:hover .id-definition,
+.question-container-mafrtxilebeli:hover .id-definition,
+.question-container-prioriteti:hover .id-definition,
+.question-container-amkrdzalavi:hover .id-definition,
+.question-container-mimtitebeli:hover .id-definition,
+.question-container-sainformacio:hover .id-definition,
+.question-container-servisis:hover .id-definition,
+.question-container-damatebiti-informaciis:hover .id-definition,
+.question-container-shuqnishnis:hover .id-definition,
+.question-container-maregulirebeli:hover .id-definition,
+.question-container-specialuri-signali:hover .id-definition,
+.question-container-saavario:hover .id-definition,
+.question-container-sanati-xelsawyoebi:hover .id-definition,
+.question-container-modzraoba-manevrireba:hover .id-definition,
+.question-container-gaswreba:hover .id-definition,
+.question-container-modzraobis-sichqare:hover .id-definition,
+.question-container-samuxruche:hover .id-definition,
+.question-container-gachereba:hover .id-definition,
+.question-container-gzajvaredini:hover .id-definition,
+.question-container-rkinigza:hover .id-definition,
+.question-container-avtomagistrali:hover .id-definition,
+.question-container-sacxovrebeli:hover .id-definition,
+.question-container-buqsireba:hover .id-definition,
+.question-container-saswavlo:hover .id-definition,
+.question-container-gadazidvebi:hover .id-definition,
+.question-container-velosipedi:hover .id-definition,
+.question-container-sagzao-monishvna:hover .id-definition,
+.question-container-sagzao-samedicino:hover .id-definition,
+.question-container-usafrtxoeba:hover .id-definition,
+.question-container-eko:hover .id-definition{
+    display: block;
+    display: flex;
+    gap: 655px;
+    align-items: center;
+    margin-left:10px;
+}
+.question-container:hover,
+.question-container-uwesivroba:hover,
+.question-container-mafrtxilebeli:hover,
+.question-container-prioriteti:hover,
+.question-container-amkrdzalavi:hover,
+.question-container-mimtitebeli:hover,
+.question-container-sainformacio:hover,
+.question-container-servisis:hover,
+.question-container-damatebiti-informaciis:hover,
+.question-container-shuqnishnis:hover,
+.question-container-maregulirebeli:hover,
+.question-container-specialuri-signali:hover,
+.question-container-saavario:hover,
+.question-container-sanati-xelsawyoebi:hover,
+.question-container-modzraoba-manevrireba:hover,
+.question-container-gaswreba:hover,
+.question-container-modzraobis-sichqare:hover,
+.question-container-samuxruche:hover,
+.question-container-gachereba:hover,
+.question-container-gzajvaredini:hover,
+.question-container-rkinigza:hover,
+.question-container-avtomagistrali:hover,
+.question-container-sacxovrebeli:hover,
+.question-container-buqsireba:hover,
+.question-container-saswavlo:hover,
+.question-container-gadazidvebi:hover,
+.question-container-velosipedi:hover,
+.question-container-sagzao-monishvna:hover,
+.question-container-sagzao-samedicino:hover,
+.question-container-usafrtxoeba:hover,
+.question-container-eko:hover{
+    cursor: pointer;
+}
+.answer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+}
+.answer-box{
+    border: 1px solid white;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    min-height: 70px;
+}
+.answer-box:hover{
+    background: #0f1f5c;
+}
+.image-container img{
+    border: 5px solid white;
+    width: 750px;
+}
+.question-overlay{
+    margin-top: -3px;
+    height: 70px;
+    background:#162f81;
+    width: 760px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+.question-overlay span{
+    text-align: center;
+}
+.id-definition{
+    display: none;
+    position: absolute;
+}
+.ticket-id p{
+    font-size: 20px;
+    color: white;
+}
+.ticket-id-img{
+    height: 45px;
+    width: 45px;
+}
+.ticket-id-p{
+    display: none;
+}
+.question-container.active .ticket-id-p,
+.question-container-uwesivroba.active .ticket-id-p,
+.question-container-mafrtxilebeli.active .ticket-id-p,
+.question-container-prioriteti.active .ticket-id-p,
+.question-container-amkrdzalavi.active .ticket-id-p,
+.question-container-mimtitebeli.active .ticket-id-p,
+.question-container-sainformacio.active .ticket-id-p,
+.question-container-servisis.active .ticket-id-p,
+.question-container-damatebiti-informaciis.active .ticket-id-p,
+.question-container-shuqnishnis.active .ticket-id-p,
+.question-container-maregulirebeli.active .ticket-id-p,
+.question-container-specialuri-signali.active .ticket-id-p,
+.question-container-saavario.active .ticket-id-p,
+.question-container-sanati-xelsawyoebi.active .ticket-id-p,
+.question-container-modzraoba-manevrireba.active .ticket-id-p,
+.question-container-gaswreba.active .ticket-id-p,
+.question-container-modzraobis-sichqare.active .ticket-id-p,
+.question-container-samuxruche.active .ticket-id-p,
+.question-container-gachereba.active .ticket-id-p,
+.question-container-gzajvaredini.active .ticket-id-p,
+.question-container-rkinigza.active .ticket-id-p,
+.question-container-avtomagistrali.active .ticket-id-p,
+.question-container-sacxovrebeli.active .ticket-id-p,
+.question-container-buqsireba.active .ticket-id-p,
+.question-container-saswavlo.active .ticket-id-p,
+.question-container-gadazidvebi.active .ticket-id-p,
+.question-container-velosipedi.active .ticket-id-p,
+.question-container-sagzao-monishvna.active .ticket-id-p,
+.question-container-sagzao-samedicino.active .ticket-id-p,
+.question-container-usafrtxoeba.active .ticket-id-,
+.question-container-eko.active .ticket-id-p{
+    display: block;
+    color: black;
+    background-color: green;
+    width: 500px;
+    margin-left: -600px;
+    margin-top: -40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+}
+.question-container.active .ticket-id,
+.question-container-uwesivroba.active .ticket-id,
+.question-container-mafrtxilebeli.active .ticket-id,
+.question-container-prioriteti.active .ticket-id,
+.question-container-amkrdzalavi.active .ticket-id,
+.question-container-mimtitebeli.active .ticket-id,
+.question-container-sainformacio.active .ticket-id,
+.question-container-servisis.active .ticket-id,
+.question-container-damatebiti-informaciis.active .ticket-id,
+.question-container-shuqnishnis.active .ticket-id,
+.question-container-maregulirebeli.active .ticket-id,
+.question-container-specialuri-signali.active .ticket-id,
+.question-container-saavario.active .ticket-id,
+.question-container-sanati-xelsawyoebi.active .ticket-id,
+.question-container-modzraoba-manevrireba.active .ticket-id,
+.question-container-gaswreba.active .ticket-id,
+.question-container-modzraobis-sichqare.active .ticket-id,
+.question-container-samuxruche.active .ticket-id,
+.question-container-gachereba.active .ticket-id,
+.question-container-gzajvaredini.active .ticket-id,
+.question-container-rkinigza.active .ticket-id,
+.question-container-avtomagistrali.active .ticket-id,
+.question-container-sacxovrebeli.active .ticket-id,
+.question-container-buqsireba.active .ticket-id,
+.question-container-saswavlo.active .ticket-id,
+.question-container-gadazidvebi.acitve .ticket-id,
+.question-container-velosipedi.active .ticket-id,
+.question-container-sagzao-monishvna.acitve .ticket-id,
+.question-container-sagzao-samedicino.active .ticket-id,
+.question-container-usafrtxoeba.active .ticket-id,
+.question-container-eko.active .ticket-id
+{
+    margin-top: 0px;
+}
+
+.signs-products img{
+    height: 200px;
+    width: 200px;
+}
+.signs-products p{
+    width: 200px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.signs-product-damatebiti-sagzao-monishvnebi p{
+    font-size: 11px;
+    margin-top: -50px;
+    width: 215px;
+}
+.signs-product-damatebiti-sagzao-monishvnebi {
+    margin-top: -50px;
+}
+.signs-product-damatebiti-sagzao-monishvnebi img{
+    width:210px;
+}
+.question-container,
+        .question-container-uwesivroba,
+        .question-container-mafrtxilebeli,
+        .question-container-prioriteti,
+        .question-container-amkrdzalavi,
+        .question-container-mimtitebeli,
+        .question-container-sainformacio,
+        .question-container-servisis,
+        .question-container-damatebiti-informaciis,
+        .question-container-shuqnishnis,
+        .question-container-maregulirebeli,
+        .question-container-specialuri-signali,
+        .question-container-saavario,
+        .question-container-sanati-xelsawyoebi,
+        .question-container-modzraoba-manevrireba,
+        .question-container-gaswreba,
+        .question-container-modzraobis-sichqare,
+        .question-container-samuxruche,
+        .question-container-gachereba,
+        .question-container-gzajvaredini,
+        .question-container-rkinigza,
+        .question-container-avtomagistrali,
+        .question-container-sacxovrebeli,
+        .question-container-buqsireba,
+        .question-container-saswavlo,
+        .question-container-gadazidvebi,
+        .question-container-velosipedi,
+        .question-container-sagzao-monishvna,
+        .question-container-sagzao-samedicino,
+        .question-container-usafrtxoeba,
+        .question-container-eko{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.hide-ads{
+    display: none;
+}
+.ads1{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    background:linear-gradient(270deg,#8e2e2e,#3a8b3a,#2828a4);
+    width: 1030px;
+    height: 230px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: banner 10s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+}
+.ads1 p{
+    font-size: 70px;
+    color: white;
+}
+.ads2{
+    position: absolute;
+    top: 1950px;
+    left: 0px;
+    background:linear-gradient(90deg,#0f172a,#6D28D9,rgb(200, 197, 197));
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: banner 7s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+}
+.ads2 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads3{
+    position: absolute;
+    top: 2500px;
+    left: 0px;
+    background:linear-gradient(270deg,#F472B5,#06B6D4,#8B5CF6);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: banner 7s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+}
+.ads3 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.ads4{
+    position: absolute;
+    bottom: -350px;
+    left: 60px;
+    background:linear-gradient(135deg,#6D28D9,rgb(176, 58, 58),green);
+    width: 1400px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: banner 10s ease-in-out infinite;
+    background-size: 200% 100%;
+    background-position: left;
+    
+}
+.ads4 p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@keyframes banner{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@media (max-width: 768px) {
+  .ads1 {
+    position: static;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    left: 0;
+  }
+  .ads1 p { font-size: 30px; }
+
+  .ads2, .ads3 {
+    position: static;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .ads2 p, .ads3 p { font-size: 30px; }
+
+  .ads4 {
+    position: static;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+  }
+  .ads4 p { font-size: 30px; }
+
+
+  .biletebi-h1 {
+    width: 100%;
+    font-size: 30px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .biletebi-p { font-size: 20px; }
+
+  .biletebi-airchiet-kategoria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .biletebis-kategoria,
+  .biletebis-kategoria-b,
+  .biletebis-kategoria-a,
+  .biletebis-kategoria-moped {
+    width: 100%;
+    height: 100px;
+  }
+  .biletebis-kategoria img,
+  .biletebis-kategoria-b img,
+  .biletebis-kategoria-a img,
+  .biletebis-kategoria-moped img {
+    height: 60px;
+    width: 60px;
+  }
+  .biletebis-kategoria p,
+  .biletebis-kategoria-b p,
+  .biletebis-kategoria-a p,
+  .biletebis-kategoria-moped p {
+    font-size: 14px;
+  }
+  .signs {
+    display: block;
+    margin-top: 20px;
+    gap: 0;
+  }
+
+  .signs-list div {
+    width: 100%;
+  }
+
+  .sign {
+    width: 100%;
+  }
+  [class*='question-container'] {
+    width: 100% !important;
+    min-height: auto;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .question-overlay {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    font-size: 13px;
+    box-sizing: border-box;
+  }
+
+  .answer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .answer-box {
+    font-size: 14px;
+    min-height: 50px;
+  }
+
+  .image-container img {
+    width: 100%;
+    border: 3px solid white;
+  }
+  .signs-products {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .signs-products img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .signs-products p {
+    width: 130px;
+    font-size: 11px;
+  }
+
+  /* ticket info */
+  .ticket-id-p {
+    width: 90vw !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    position: static !important;
+  }
+
+  .id-definition {
+    position: static !important;
+  }
+  .ads2:not(.dynamic-ad),
+  .ads3:not(.dynamic-ad),
+  .ads4:not(.dynamic-ad) {
+    display: none;
+  }
+
+  .ads2.dynamic-ad,
+  .ads3.dynamic-ad,
+  .ads4.dynamic-ad {
+    position: static;
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    left: auto;
+    top: auto;
+    bottom: auto;
+  }
+
+  .ads2.dynamic-ad p,
+  .ads3.dynamic-ad p,
+  .ads4.dynamic-ad p {
+    font-size: 30px;
+  }
+  [class*='question-container'].active .id-definition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: static;
+    margin: 10px 0;
+  }
+}

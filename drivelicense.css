@@ -1,0 +1,154 @@
+.site-header{
+  background:#0d47a1;
+  color:white;
+  padding:15px 0;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo a{
+  color:white;
+  font-size:14px;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.nav-menu{
+  display:flex;
+  gap:20px;
+}
+
+.nav-menu a{
+  color:white;
+  text-decoration:none;
+  font-size:15px;
+  transition:.2s;
+}
+
+.nav-menu a:hover{
+  opacity:.8;
+}
+
+.search-box input{
+  padding:6px 10px;
+  border-radius:5px;
+  border:none;
+}
+.site-footer{
+  margin-top: 400px;
+  background:#0d1b2a;
+  color:#ccc;
+  padding:40px 20px 20px;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.footer-col h4{
+  color:white;
+  margin-bottom:10px;
+}
+
+.footer-col a{
+  display:block;
+  color:#bbb;
+  text-decoration:none;
+  margin:5px 0;
+  font-size:14px;
+}
+
+.footer-col a:hover{
+  color:white;
+}
+
+.footer-bottom{
+  text-align:center;
+  margin-top:25px;
+  font-size:13px;
+  color:#888;
+}
+.hamburger {
+  display: none;
+}
+
+
+
+@media (max-width: 768px) {
+
+  /* header */
+  .header-container {
+    justify-content: space-between;
+    gap: 0;
+    padding: 0 15px;
+  }
+
+  .logo a {
+    font-size: 16px;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: #0d47a1;
+    padding: 10px 0;
+    z-index: 999;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu a {
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 16px;
+  }
+
+  /* hamburger ღილაკი */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+  }
+
+  /* footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .site-footer {
+    margin-top: 50px;
+  }
+}
