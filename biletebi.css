@@ -753,8 +753,8 @@
     font-size: 11px;
   }
 
- .ticket-id-p {
-  width: 90vw !important;
+.ticket-id-p {
+  width: 100% !important;
   margin-left: 0 !important;
   margin-top: 0 !important;
   position: static !important;
@@ -797,6 +797,9 @@
   position: static !important;
   margin-left: 0 !important;
   margin-top: 0 !important;
-  width: 90vw !important;
+  width: 100% !important;
+}
+.ticket-id {
+  position: static !important;
 }
 }
