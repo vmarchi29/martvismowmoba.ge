@@ -762,7 +762,7 @@
 }
  .id-definition {
   display: flex !important;
-  position: static !important;
+  position: relative !important;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -795,9 +795,9 @@
   gap: 0 !important;
 }
   [class*='question-container'].active .ticket-id-p {
-  position: relative !important;
-  margin-left: -100% !important;
-  margin-top: 0px !important;
+  position: absolute !important;
+  left: -100% !important;
+  top: 0px !important;
   width: 70% !important;
   font-size: 10px !important;
   z-index: 10;
