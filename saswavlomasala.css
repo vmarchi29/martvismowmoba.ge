@@ -274,4 +274,27 @@
   .signs-product-damatebiti-sagzao-monishvnebi {
     margin-top: 0;
   }
+  .ads2:not(.dynamic-ad),
+.ads3:not(.dynamic-ad),
+.ads4:not(.dynamic-ad) {
+  display: none;
+}
+
+.ads2.dynamic-ad,
+.ads3.dynamic-ad,
+.ads4.dynamic-ad {
+  position: static;
+  width: 100%;
+  height: 150px;
+  margin: 20px 0;
+  left: auto;
+  top: auto;
+  bottom: auto;
+}
+
+.ads2.dynamic-ad p,
+.ads3.dynamic-ad p,
+.ads4.dynamic-ad p {
+  font-size: 30px;
+}
 }

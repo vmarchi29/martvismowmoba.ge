@@ -636,19 +636,19 @@
 }
 @media (max-width: 768px) {
   .ads1 {
-  position: static;
-  width: 100%;
-  height: 120px;
-  margin-top: 10px;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ads1 p { 
-  font-size: 20px;
-  text-align: center;
-}
+    position: static;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ads1 p { 
+    font-size: 20px;
+    text-align: center;
+  }
 
   .ads2, .ads3 {
     position: static;
@@ -667,7 +667,6 @@
     bottom: 0;
   }
   .ads4 p { font-size: 30px; }
-
 
   .biletebi-h1 {
     width: 100%;
@@ -703,6 +702,7 @@
   .biletebis-kategoria-moped p {
     font-size: 14px;
   }
+
   .signs {
     display: block;
     margin-top: 20px;
@@ -716,6 +716,7 @@
   .sign {
     width: 100%;
   }
+
   [class*='question-container'] {
     width: 100% !important;
     min-height: auto;
@@ -744,6 +745,7 @@
     width: 100%;
     border: 3px solid white;
   }
+
   .signs-products {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
@@ -768,9 +770,21 @@
     position: static !important;
   }
 
-  .id-definition {
-    position: static !important;
+  .ticket-id-img {
+    display: block !important;
+    height: 35px;
+    width: 35px;
   }
+
+  .id-definition {
+    display: flex !important;
+    position: static !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
   .ads2:not(.dynamic-ad),
   .ads3:not(.dynamic-ad),
   .ads4:not(.dynamic-ad) {
@@ -794,6 +808,7 @@
   .ads4.dynamic-ad p {
     font-size: 30px;
   }
+
   [class*='question-container'].active .id-definition {
     display: flex;
     flex-direction: column;
