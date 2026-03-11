@@ -795,12 +795,11 @@
   gap: 0 !important;
 }
   [class*='question-container'].active .ticket-id-p {
-  position: absolute !important;
-  left: -50% !important;
-  top: 40px !important;
-  width: 100% !important;
-  margin: 0 !important;
-  font-size: 12px !important;
+  position: relative !important;
+  margin-left: -50% !important;
+  margin-top: 40px !important;
+  width: 70% !important;
+  font-size: 10px !important;
   z-index: 10;
   background: white;
   padding: 10px;
