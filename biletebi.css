@@ -795,17 +795,17 @@
   gap: 0 !important;
 }
   [class*='question-container'].active .ticket-id-p {
-  position: relative !important;
-  margin-right: 300% !important;
-  margin-top: 0px !important;
-  width: 200px !important;
-  font-size: 10px !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 40px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  font-size: 12px !important;
   z-index: 10;
   background: white;
   padding: 10px;
   border-radius: 10px;
   color: black;
-  box-sizing: border-box;
 }
 .ticket-id {
   position: static !important;
