@@ -35,12 +35,12 @@ body{
 .ads4{
     position: absolute;
     bottom: -350px;
-    left: 60px;
+    left: 3%;
     background:linear-gradient(135deg,#6D28D9,rgb(176, 58, 58),green);
     background-size: 200% 100%;
     background-position: left;
     transition:0.5s ease infinite;
-    width: 1400px;
+    width: 95%;
     height: 300px;
     border-radius: 5px;
     display: flex;
