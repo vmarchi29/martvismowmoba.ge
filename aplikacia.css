@@ -74,11 +74,13 @@ body{
   .main .top,
   .main .middle {
     grid-template-columns: repeat(3,1fr);
+    gap: 1%;
   }
 
   .main .bottom {
     grid-template-columns: repeat(2,1fr);
     margin-left: 0;
+    gap:1%
   }
 
   .main button {

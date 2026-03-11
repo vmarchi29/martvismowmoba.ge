@@ -107,9 +107,13 @@
   }
 
   .ads1 p {
+    text-align: center;
     font-size: 30px;
   }
   .moedani h1{
+    text-align: center;
+  }
+  .frequently-question h1{
     text-align: center;
   }
 }
