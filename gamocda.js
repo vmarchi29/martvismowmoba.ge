@@ -182,20 +182,34 @@ function finishExam(reason) {
   info.id = "finishInfo";
   info.style.cssText = `
     position: fixed;
-    top: 15%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 18px;
     z-index: 9999;
-    background-color: gray;
+    background-color: #1e293b;
     padding: 30px;
     border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
   `;
   info.innerHTML = `
+    <button onclick="document.getElementById('finishInfo').remove()" style="
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 22px;
+      cursor: pointer;
+      line-height: 1;
+    ">✕</button>
     <p style="font-size:20px; color:white;">${reason}</p>
     <p style="color:white">✅ სწორი: <strong>${correct}</strong> | ❌ შეცდომები: <strong>${wrong}</strong></p>
-    <p style="font-size:22px; background-color:gray; font-weight:bold; color:${passed ? "#16a34a" : "#dc2626"}">
+    <p style="font-size:22px; font-weight:bold; color:${passed ? "#16a34a" : "#dc2626"}">
       ${passed ? "🎉 ჩაბარებულია!" : "😞 ვერ ჩააბარე"}
     </p>
   `;
