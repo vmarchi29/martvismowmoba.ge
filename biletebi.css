@@ -793,4 +793,10 @@
   [class*='question-container']:hover .id-definition {
     display: flex !important;
   }
+  [class*='question-container'].active .ticket-id-p {
+  position: static !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  width: 90vw !important;
+}
 }
