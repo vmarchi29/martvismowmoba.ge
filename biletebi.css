@@ -756,16 +756,17 @@
 .ticket-id-p {
   width: 100% !important;
   margin-left: 0 !important;
-  margin-top: 0 !important;
+  margin-top: 5px !important;
   position: static !important;
+  font-size: 12px !important;
 }
-  .id-definition {
+ .id-definition {
   display: flex !important;
   position: static !important;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 5px;
+  align-items: flex-start;
   width: 100%;
+  flex-wrap: wrap;
 }
   .ads2:not(.dynamic-ad),
   .ads3:not(.dynamic-ad),
@@ -801,5 +802,10 @@
 }
 .ticket-id {
   position: static !important;
+}
+.ticket-definition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 }
