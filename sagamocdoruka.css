@@ -54,45 +54,43 @@
     text-decoration: underline;
     align-items: center;
 }
-.ads2{
-    position: absolute;
-    top: 1200px;
-    left: 2%;
-    background:linear-gradient(90deg,#0f172a,#6D28D9,rgb(200, 197, 197));
-    width: 300px;
-    height: 500px;
+.ads2 {
+    position: fixed;
+    top: 200px;
+    left: 5%;
+    background: linear-gradient(90deg,#0f172a,#6D28D9,rgb(200, 197, 197));
+    width: 15%;
+    height: 400px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     animation: banner 7s ease-in-out infinite;
     background-size: 200% 100%;
     background-position: left;
 }
 .ads2 p{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
 }
-.ads3{
-    position: absolute;
-    top: 1200px;
-    left: 79%;
-    background:linear-gradient(270deg,#F472B5,#06B6D4,#8B5CF6);
-    width: 300px;
-    height: 500px;
+.ads3 {
+    position: fixed;
+    top: 200px;
+    right: 5%;
+    background: linear-gradient(270deg,#F472B5,#06B6D4,#8B5CF6);
+    width: 15%;
+    height: 400px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     animation: banner 7s ease-in-out infinite;
     background-size: 200% 100%;
     background-position: left;
 }
 .ads3 p{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
 }

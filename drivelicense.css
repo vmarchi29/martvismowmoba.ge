@@ -38,12 +38,6 @@
 .nav-menu a:hover{
   opacity:.8;
 }
-
-.search-box input{
-  padding:6px 10px;
-  border-radius:5px;
-  border:none;
-}
 .site-footer{
   margin-top: 400px;
   background:#0d1b2a;
